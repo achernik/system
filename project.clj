@@ -1,6 +1,6 @@
-(defproject org.danielsz/system "0.3.2-SNAPSHOT"
+(defproject org.achernik/danielsz-system-fork "0.3.2-achernik-SNAPSHOT"
   :description "Reloaded components à la carte"
-  :url "https://github.com/danielsz/system"
+  :url "https://github.com/achernik/system"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]
@@ -55,7 +55,6 @@
                                                     :main system.cljs-runner
                                                     :optimizations :none}}]}}}
   :scm {:name "git"
-        :url "https://github.com/danielsz/system"}
+        :url "https://github.com/achernik/system"}
   :test-selectors {:default (complement :dependency)
                    :dependency :dependency})
-
